@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      IMAGE_NAME: ghcr.io/${{ github.repository_owner | toLower }}/mi-web-app
+      IMAGE_NAME: ghcr.io/jorge4523/mi-web-app
       SITE_INDEX: index.html
 
     steps:
